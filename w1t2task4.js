@@ -18,9 +18,11 @@ const hobbies = {
     hobbies : ['gaming', 'drawing', 'hiking']
 }
 
-const myBio = {...data, ...hobbies};
-myBio.name = "Erlangga Jatikusuma";
-myBio.email = "erlanggajatikusuma007@gmail.com";
+const myBio = {...data, ...hobbies,
+    name: "Erlangga Jatikusuma",
+    email: "erlanggajatikusuma007@gmail.com"
+};
+
 
 console.log(myBio);
 
