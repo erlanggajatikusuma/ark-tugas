@@ -7,27 +7,26 @@ const biodata = {
         {
             elementarySchool : "SD N Sleman 3",
             yearIn : 2006,
-            yearOut : 2012
+            yearOut : 2012,
+            major : null
         },
         {
             juniorHighSchool : "SMP N 3 Sleman",
             yearIn : 2012,
-            yearOut : 2015
+            yearOut : 2015,
+            major : null
         },
         {
             seniorHighSchool : "SMA N 1 Depok Sleman",
             yearIn : 2015,
-            yearOut : 2018
-        },
-        {
-            major : null,
-            yearIn : null,
-            yearOut : null
+            yearOut : 2018,
+            major : 'IPS'
         }
     ],
     skills : [
         {
-            drawing : "beginner"
+            skills : "drawing"
+            level : "beginner"
         },
         
     ],
