@@ -14,13 +14,11 @@ let data = {
 }
 
 // 4.1 Ubah data
-const hobbies = {
-    hobbies : ['gaming', 'drawing', 'hiking']
-}
 
-const myBio = {...data, ...hobbies,
+const myBio = {...data,
     name: "Erlangga Jatikusuma",
-    email: "erlanggajatikusuma007@gmail.com"
+    email: "erlanggajatikusuma007@gmail.com",
+    hobbies : ['gaming', 'drawing', 'hiking']
 };
 
 
@@ -28,5 +26,8 @@ console.log(myBio);
 
 // 4.2 Ambil data
 const {street, city} = data.address;
+
+console.log(street);
+console.log(city);
 
     
