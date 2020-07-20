@@ -25,10 +25,12 @@ const biodata = {
     ],
     skills : [
         {
-            skills : "drawing"
+            skills : "drawing",
             level : "beginner"
-        },
+        }
         
     ],
     interestInCoding : true
 }
+
+console.log(biodata);
