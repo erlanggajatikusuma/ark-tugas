@@ -8,7 +8,7 @@ const weekdaysCheck = (day) => {
             if(check) {
                 resolve(check);
             } else {
-                reject('Hari ini bukan hari kerja');
+                reject(new Error('Hari ini bukan hari kerja'));
             }
         }, 3000);
     });
@@ -16,7 +16,22 @@ const weekdaysCheck = (day) => {
 
 weekdaysCheck('ahad')
     .then(result => console.log(result))
-    .catch(error => console.log(error));
+    .catch(error => console.log(error.message));
 
 
 // try catch
+
+
+const check = async (day) => {
+    console.log('Mulai');
+    let result = null;
+    try {
+        result = await weekdaysCheck(day)
+    } catch (error) {
+        console.log(error.message)
+    }
+    console.log(result);
+    console.log('Selesai')
+}
+
+check('senin');
