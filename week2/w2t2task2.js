@@ -10,7 +10,7 @@ const getMonth = (callback) => {
     }, 4000);
 }
 
-const getData = (dataMonths) => {
+const getData = (err, dataMonths) => {
     const months = dataMonths.map(month => console.log(month));
 }
 
