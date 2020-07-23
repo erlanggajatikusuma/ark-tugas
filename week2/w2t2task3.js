@@ -23,3 +23,19 @@ getProduct('apel')
 
 
 // 2. Program 2
+
+const sum = (num1, num2) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if(typeof num1 === 'number' && typeof num2 === 'number') {
+                resolve(num1 + num2);
+            } else {
+                reject(new Error('yang anda masukkan bukan angka'));
+            }
+        }, 2000);
+    });
+}
+
+sum('2',10)
+    .then(result => console.log(result))
+    .catch(error => console.log(error.message));
