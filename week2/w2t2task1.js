@@ -18,6 +18,9 @@ weekdaysCheck('ahad')
     .then(result => console.log(result))
     .catch(error => console.log(error.message));
 
+// then fungsi : untuk menangkap promise yang berhasil
+// catch fungsi : untuk menangkap promise yang gagal
+
 
 // try catch
 
@@ -35,3 +38,6 @@ const check = async (day) => {
 }
 
 check('senin');
+
+// try : untuk mengecek apakah suatu kondisi error
+// catch : untuk menangkap kondisi error dari try
