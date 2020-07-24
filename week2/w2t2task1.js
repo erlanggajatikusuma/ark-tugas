@@ -3,7 +3,7 @@ const weekdaysCheck = (day) => {
         setTimeout(() => {
             const dataDays = ['senin', 'selasa', 'rabu', 'kamis', 'jumat'];
             let check = dataDays.find(item => {
-                return item === day;
+                return item === day.toLowerCase();
             })
             if(check) {
                 resolve(check);
@@ -14,7 +14,7 @@ const weekdaysCheck = (day) => {
     });
 }
 
-weekdaysCheck('ahad')
+weekdaysCheck('Senin')
     .then(result => console.log(result))
     .catch(error => console.log(error.message));
 
@@ -37,7 +37,7 @@ const check = async (day) => {
     console.log('Selesai')
 }
 
-check('senin');
+check('Kamis');
 
 // try : untuk mengecek apakah suatu kondisi error
 // catch : untuk menangkap kondisi error dari try
