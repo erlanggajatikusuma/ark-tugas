@@ -5,7 +5,7 @@ const getProduct = (item) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             let check = fruits.find(fruit => {
-                return fruit === item;
+                return fruit === item.toLowerCase();
             })
             if(check) {
                 resolve(check);
@@ -16,7 +16,7 @@ const getProduct = (item) => {
     });
 }
 
-getProduct('apel')
+getProduct('Apple')
     .then(result => console.log(result))
     .catch(error => console.log(error));
 
