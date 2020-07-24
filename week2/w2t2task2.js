@@ -12,14 +12,10 @@ const getMonth = (callback) => {
 
 const getData = (err, dataMonths) => {
     if(err == null) {
-        const months = dataMonths.map(month => console.log(month));
+        dataMonths.map(month => console.log(month));
     } else {
         console.log(err);
     }
-
-
 }
 
 getMonth(getData);
-
-// problem null
