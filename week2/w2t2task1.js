@@ -14,7 +14,7 @@ const weekdaysCheck = (day) => {
     });
 }
 
-weekdaysCheck('Senin')
+weekdaysCheck('ahad')
     .then(result => console.log(result))
     .catch(error => console.log(error.message));
 
@@ -34,7 +34,7 @@ const check = async (day) => {
         console.log(error.message)
     }
     console.log(result);
-    console.log('Selesai')
+    console.log('Selesai');
 }
 
 check('Kamis');
