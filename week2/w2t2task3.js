@@ -36,6 +36,6 @@ const sum = (num1, num2) => {
     });
 }
 
-sum('2',10)
+sum(2,10)
     .then(result => console.log(result))
     .catch(error => console.log(error.message));
