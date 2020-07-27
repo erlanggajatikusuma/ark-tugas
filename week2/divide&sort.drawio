@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T06:58:18.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="13.5.3" etag="348zU3YrMZ-7b9fmVoG4" type="github"><diagram id="tdneJoaaLXP1Q0Yt1NVx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-27T06:58:44.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="jHBv2byQPgCUoz7mpZ5Y" version="13.5.3" type="github">
+  <diagram id="tdneJoaaLXP1Q0Yt1NVx" name="Page-1">
+    <mxGraphModel dx="868" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-1" value="&lt;h1&gt;Divide and Sort&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;1. Mulai.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;2. Inputkan number.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;3. Ubah number ke string menggunakan (toString).&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;4. Kemudian ubah ke array dan pisahkan dengan pembatas 0 menggunakan (split).&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;5. Lakukan split dengan pembatas kosong, sort dan join dalam looping.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;6. Tampung hasil looping dengan sebuah variabel.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;7. Ubah hasil tampung ke number.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;8. Selesai.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="40" width="480" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
