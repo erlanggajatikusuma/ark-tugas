@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T06:58:44.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="jHBv2byQPgCUoz7mpZ5Y" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T06:59:38.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="eTfbcc6QZugtdL1jsIW4" version="13.5.3" type="github">
   <diagram id="tdneJoaaLXP1Q0Yt1NVx" name="Page-1">
     <mxGraphModel dx="868" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,6 +6,81 @@
         <mxCell id="1" parent="0" />
         <mxCell id="4Op_NRx9Pimqiuap0fzk-1" value="&lt;h1&gt;Divide and Sort&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;1. Mulai.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;2. Inputkan number.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;3. Ubah number ke string menggunakan (toString).&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;4. Kemudian ubah ke array dan pisahkan dengan pembatas 0 menggunakan (split).&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;5. Lakukan split dengan pembatas kosong, sort dan join dalam looping.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;6. Tampung hasil looping dengan sebuah variabel.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;7. Ubah hasil tampung ke number.&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;8. Selesai.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="41" y="40" width="480" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-3" target="4Op_NRx9Pimqiuap0fzk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-3" value="Mulai." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-5" target="4Op_NRx9Pimqiuap0fzk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-5" value="Input number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-7" target="4Op_NRx9Pimqiuap0fzk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-7" value="Number to string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-9" target="4Op_NRx9Pimqiuap0fzk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-9" value="string to array &amp;amp;&amp;nbsp; split(0)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-11" target="4Op_NRx9Pimqiuap0fzk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-11" value="i = array.length - 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-12" value="i &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-14" target="4Op_NRx9Pimqiuap0fzk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-14" value="Output array [ i ]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="960" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-15" value="True" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="979.5" as="sourcePoint" />
+            <mxPoint x="290" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-17" target="4Op_NRx9Pimqiuap0fzk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-17" value="i = i - 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-19" target="4Op_NRx9Pimqiuap0fzk-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-19" value="Output tampung" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-20" value="False" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="4Op_NRx9Pimqiuap0fzk-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1010" as="sourcePoint" />
+            <mxPoint x="70" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-21" value="False" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="4Op_NRx9Pimqiuap0fzk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Op_NRx9Pimqiuap0fzk-23" target="4Op_NRx9Pimqiuap0fzk-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-23" value="tampung to Number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Op_NRx9Pimqiuap0fzk-24" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1280" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
