@@ -38,9 +38,26 @@ detectPalindrome('malam');
 
 // 2. Reverse Word
 
+// Menggunakan reverse
+
 const reverse = (str) => {
     const rev = str.split(' ').reverse().join(' ');
     console.log(rev);
+}
+
+reverse('saya belajar javascript');
+
+
+// Menggunakan looping
+
+const reverse = (str) => {
+  const rev = str.split(' ');
+  let output = [];
+  for(let i = rev.length-1; i >= 0; i--) {
+    output.push(rev[i]);
+  }
+  return output.join(' ');
+  // console.log(output.join(' '));
 }
 
 reverse('saya belajar javascript');
