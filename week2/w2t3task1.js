@@ -39,7 +39,7 @@ detectPalindrome('malam');
 // 2. Reverse Word
 
 const reverse = (str) => {
-    const rev = str.split(' ').reverse();
+    const rev = str.split(' ').reverse().join(' ');
     console.log(rev);
 }
 
